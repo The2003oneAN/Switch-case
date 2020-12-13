@@ -1,0 +1,26 @@
+  #include<stdio.h>
+int main()
+{
+ printf("pick any dish:\n1.pizza \n2.burger \n3.pasta \n4.french fries \n5.sandwhich");
+ int choice=0;
+ scanf("%d",&choice);
+ switch(choice)
+ {
+    case 1:
+    printf("Byte choose pizza\n Rs-239");
+    break;
+    case 2:
+    printf("Byte choose burger\n Rs-129");
+    break;
+    case 3:
+    printf("Byte choose pasta\n Rs-179");
+    break;
+    case 4:
+    printf("Byte choose french fries\n Rs-99");
+    break;
+    case 5:
+    printf("Byte choose sandwhich\n Rs-149");
+    default:printf("no item available that is choosen");
+    }
+    return 0;
+    }
